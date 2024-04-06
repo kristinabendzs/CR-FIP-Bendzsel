@@ -18,6 +18,17 @@ a {
     color: #626262;
 }
 
+.red-text-header {
+    color:#9a2018;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.red-text-body {
+    color: #9a2018;
+    font-size: 14px;
+}
+
 input, textarea {
     display: block;
     margin: 0;
@@ -27,7 +38,7 @@ input, textarea {
     color: #9a2018;
 }
 
-/*this is the red line at the top of most text content*/
+/*this is the red line that separates titles and content*/
 .line-separator {
     margin-top: 20px;
     border-top: solid 3px #cf6666;
@@ -42,7 +53,7 @@ input, textarea {
     margin-top: 15px;
     cursor:pointer;
     transition: all .5s ease;
-    margin-bottom:20px
+    margin-bottom: 20px
 }
 
 #main-nav input, #burger-con {
@@ -67,8 +78,9 @@ input, textarea {
 
 #main-nav ul li a {
     display: block;
-    padding: 10px 0px 10px 5px;
+    padding: 10px 0 10px 0;
     text-align: center;
+    color: #626262;
 }
 
 #main-nav ul li {
@@ -80,13 +92,82 @@ input, textarea {
 }
 
 #main-nav ul li:last-child {
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
     
 #logo {
     margin-bottom: 20px;
     max-width: 382px;
 }
+
+/*Main Hero Image*/
+#hero-spa {
+    background: url(../images/hero-img-mobile-spa.jpg) no-repeat;
+    height: 220px;
+}
+
+#hero-rooms {
+    background: url(../images/hero-img-mobile-rooms.jpg) no-repeat;
+    height: 220px;
+}
+.book-now {
+    background-color: #9a2018;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 18px;
+    transition: background-color 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.book-now:hover {
+    background-color: rgb(196,28,28);
+}
+
+#book-now-hero {
+    height: 67px;
+}
+
+#hero-heading-box {
+    align-self:end;
+}
+
+.hero-image-h2, .hero-img-h3 {
+    background: #fff;
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.hero-image-h2 span, .hero-image-h3 span {
+    color: #9a2018;
+    font: 12px;
+}
+
+#hero-summary p {
+    font-size: 14px;
+    line-height: 22px;
+    line-height: 2em;
+}
+
+/*Rooms Page Content*/
+#rooms-list ul li {
+    display: block;
+    padding: 10px ;
+    text-align: left;
+    color: #626262;
+}
+
+#rooms-list ul li {
+    border-bottom: 1.5px solid #9a2018;
+}
+
+
+
 
 /*Footer for all Pages*/
 #footer-hero {
