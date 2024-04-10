@@ -8,14 +8,14 @@
 }
 
 body {
-    color: #626262;
+    color: #333;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 a {
     text-decoration: none;
     transition: all .5s ease-in-out;
-    color: #626262;
+    color: #333;
 }
 
 .red-text-header {
@@ -136,7 +136,7 @@ input, textarea {
     align-self:end;
 }
 
-.hero-image-h2, .hero-img-h3 {
+.hero-image-h2, .hero-image-h3 {
     background: #fff;
     padding: 10px 15px;
     font-size: 18px;
@@ -150,11 +150,63 @@ input, textarea {
 
 #hero-summary p {
     font-size: 14px;
-    line-height: 22px;
+    line-height: 2em;
+    margin-top: 10px
+}
+
+/*Spa Content - Treatments Navigation*/
+
+#treatments-offered-nav {
+    padding-top: 10px;
+    margin-top: 40px;
+    border-top: 1px solid #626262;
+}
+
+#treatments-offered-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
     line-height: 2em;
 }
 
-/*Rooms Page Content*/
+#teatments-offered-nav ul li {
+    margin-bottom: 15px;
+}
+
+#treatments-offered-nav ul li a {
+    color: inherit;
+    padding: 5px;
+}
+
+#treatments-offered-nav ul li a.selected {
+    border-left:#9a2018 solid 5px;
+}
+
+#registered-massage-therapy-con {
+    background: url(../images/header-img1-mobile-spa.jpg) no-repeat;
+    height: 206px;
+    margin-top: 25px;
+}
+
+#registered-massage-therapy-box {
+    align-self: end;
+}
+
+#massage-therapy p {
+    font-size: 14px;
+    line-height: 2em;
+    margin-top: 10px;
+}
+
+#massage-therapy-img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #B8B8B8;
+    width: 382px;
+    height: 115px;
+}
+/*Rooms Content*/
+
 #rooms-list ul li {
     display: block;
     padding: 10px ;
@@ -165,6 +217,38 @@ input, textarea {
 #rooms-list ul li {
     border-bottom: 1.5px solid #9a2018;
 }
+
+
+/*Treatments Navigation*/
+
+#treatments-offered-nav {
+    padding-top: 20px;
+}
+
+#treatments-offered-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#teatments-offered-nav ul li {
+    margin-bottom: 15px;
+}
+
+#treatments-offered-nav ul li a {
+    color:#333;
+    padding: 5px;
+}
+
+#treatments-offered-nav ul li a.selected {
+    border-left:#9a2018 solid 5px;
+}
+
+
+
+
+
+
 
 
 
