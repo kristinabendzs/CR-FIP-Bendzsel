@@ -117,6 +117,14 @@ input, textarea {
     height: 220px;
 }
 
+#hero-algonquin {
+    background-image: url(../images/ap-hero-image-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 220px;
+}
+
 /*Book Now Button*/
 .book-now {
     background-color: #9a2018;
@@ -163,6 +171,9 @@ input, textarea {
     margin-top: 10px
 }
 
+#hero-summary-ap {
+    margin-bottom: 15px;
+}
 /*Spa Content*/
 
 #spa-information {
@@ -305,7 +316,6 @@ input, textarea {
 
 #spa-policies-con {
     background-image: url(../images/header-img2-mobile-spa.jpg);
-    background-repeat: no-repeat;
     background-repeat: no-repeat;
     background-size:cover;
     height: 206px;
@@ -451,8 +461,21 @@ input, textarea {
 }
 
 
+/*Algonquin Park Content*/
 
+#ap-image1 {
+    display: flex;
+    align-items: center;
+}
 
+#ap-image1 img {
+    width: 176px;
+    margin-right: 20px;
+}
+
+.algonquin-park-con {
+    margin-bottom: 20px;
+}
 
 
 /*Footer for all Pages*/
