@@ -108,12 +108,18 @@ input, textarea {
 
 /*Main Hero Image*/
 #hero-spa {
-    background: url(../images/hero-img-mobile-spa.jpg) no-repeat;
+    background: url(../images/hero-spa-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 220px;
 }
 
 #hero-rooms {
-    background: url(../images/hero-img-mobile-rooms.jpg) no-repeat;
+    background: url(../images/hero-img-mobile-rooms.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 220px;
 }
 
@@ -149,18 +155,18 @@ input, textarea {
 }
 
 /*Hero Image and Heading Box*/
-#hero-heading-box {
+.white-heading-box {
     align-self:end;
 }
 
-.hero-image-h2, .hero-image-h3 {
+.header-text-h2, .header-text-h3 {
     background: #fff;
     padding: 10px 15px;
     font-size: 18px;
     line-height: 25px;
 }
 
-.hero-image-h2 span, .hero-image-h3 span {
+.header-text-h2 span, .header-text-h3 span {
     color: #9a2018;
     font: 12px;
 }
@@ -186,7 +192,7 @@ input, textarea {
     list-style: none;
     margin: 0;
     padding: 0px;
-    line-height: 25px;
+    line-height: 20px;
 }
 
 #spa-information-nav ul li {
@@ -204,15 +210,11 @@ input, textarea {
 
 /*Registered Massage Therapy Content*/
 #registered-massage-therapy-con {
-    background: url(../images/header-img1-mobile-spa.jpg);
+    background: url(../images/spa-image1-mobile.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 206px;
     margin-top: 25px;
-}
-
-#registered-massage-therapy-box {
-    align-self: end;
 }
 
 #massage-therapy p {
@@ -234,6 +236,8 @@ input, textarea {
     text-align: center;
     margin-bottom: 20px;
 }
+
+
 
 #quality-assurance {
     display: flex;
@@ -315,14 +319,10 @@ input, textarea {
 /*Spa Policies*/
 
 #spa-policies-con {
-    background-image: url(../images/header-img2-mobile-spa.jpg);
+    background-image: url(../images/spa-image3-mobile.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 206px;
-}
-
-#spa-policies-heading-box {
-    align-self: end;
 }
 
 #spa-policies-img1 {
@@ -382,15 +382,11 @@ input, textarea {
 
 /*Contact*/
 #contact-hero-con {
-    background: url(../images/header-img3-mobile-spa.jpg);
+    background: url(../images/spa-image5-mobile.jpg);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
     height:206px;
- }
- 
- #contact-hero-heading-box {
-    align-self: end;
  }
  
  #contact-hero-text {
@@ -398,10 +394,15 @@ input, textarea {
     margin-bottom: 25px;
  }
  
+ #contact-hero-text p {
+    font-size: 14px;
+    line-height: 20px;
+ }
+
  #contact-hero-address p {
     margin-bottom: 20px;
     font-size: 14px;
-    line-height: 22px;
+    line-height: 20px;
  }
  
  #contact-hero-address {
@@ -418,7 +419,7 @@ input, textarea {
  }
  
  #contact-hero-form input, textarea {
-    padding: 22px;
+    padding: 18px;
     border: 2px solid #d6d6d6;
     background-color: #f7f7f7;
     border-radius: 5px;
@@ -430,7 +431,7 @@ input, textarea {
  #contact-hero-form textarea {
     height: 250px;
  }
- 
+
  #contact-hero-form input[type="submit"] {
     padding: 12px 28px;
     background: #9a2018;
@@ -445,6 +446,18 @@ input, textarea {
     background-color: #626262;
     border-radius: 0;
  }
+
+ #contact-hero-form input[type="submit"]:active {
+    animation-name: sendbutton;
+ }
+
+ /*Send Button Animation*/
+
+@keyframes sendbutton {
+    0% {transform: translateX(0)}
+    50% {transform: translateX(-50px)}
+    100% {transform: translateX(-100px);}
+}
 
 
 /*Rooms Content*/
@@ -477,6 +490,12 @@ input, textarea {
     margin-bottom: 20px;
 }
 
+#park-features-con {
+    background-image: url(../images/header-img2-mobile-spa.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 206px;
+}
 
 /*Footer for all Pages*/
 #footer-hero {
