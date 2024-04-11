@@ -124,7 +124,7 @@ input, textarea {
 }
 
 #hero-algonquin {
-    background-image: url(../images/ap-hero-image-mobile.jpg);
+    background-image: url(../images/hero-ap-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -303,7 +303,7 @@ input, textarea {
 #treatments-menu ul li {
     list-style: none;
     color: #333;
-    border-bottom: 1.5px solid #9a2018;
+    border-bottom: 1px solid #9a2018;
     padding: 10px;
 }
 
@@ -470,7 +470,7 @@ input, textarea {
 }
 
 #rooms-list ul li {
-    border-bottom: 1.5px solid #9a2018;
+    border-bottom: 1px solid #9a2018;
 }
 
 
@@ -484,6 +484,7 @@ input, textarea {
 #ap-image1 img {
     width: 176px;
     margin-right: 20px;
+    border: 2px solid #B8B8B8;
 }
 
 .algonquin-park-con {
@@ -491,12 +492,50 @@ input, textarea {
 }
 
 #park-features-con {
-    background-image: url(../images/header-img2-mobile-spa.jpg);
+    background-image: url(../images/ap-image2-mobile.jpeg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 206px;
 }
 
+#algonquin-park-con-2 {
+    margin-bottom: 25px;
+}
+
+#park-list {
+    margin-bottom: 20px;
+}
+
+#park-list ul {
+    padding-left: 0;
+}
+
+#park-list ul li {
+    list-style: none;
+    color: #333;
+    border-bottom: 1px solid #9a2018;
+    padding: 10px;
+}
+
+.ap-content-2 {
+    margin-bottom: 25px;
+}
+
+.ap-content-2 img {
+    margin-bottom: 25px;
+    border: 2px solid #B8B8B8;
+    width: 382px;
+}
+
+.ap-content-3 {
+    margin-bottom: 25px;
+}
+
+.ap-content-3 img {
+    margin-bottom: 25px;
+    border: 2px solid #B8B8B8;
+    width: 382px;
+}
 /*Footer for all Pages*/
 #footer-hero {
     background-image: url(../images/background-contact.jpg);
