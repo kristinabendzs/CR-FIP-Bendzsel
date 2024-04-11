@@ -150,11 +150,11 @@ input, textarea {
 
 #hero-summary p {
     font-size: 14px;
-    line-height: 2em;
+    line-height: 20px;
     margin-top: 10px
 }
 
-/*Spa Content - Treatments Navigation*/
+/*Spa Content*/
 
 #treatments-offered-nav {
     padding-top: 10px;
@@ -166,7 +166,7 @@ input, textarea {
     list-style: none;
     margin: 0;
     padding: 0px;
-    line-height: 2em;
+    line-height: 35px;
 }
 
 #teatments-offered-nav ul li {
@@ -194,22 +194,106 @@ input, textarea {
 
 #massage-therapy p {
     font-size: 14px;
-    line-height: 2em;
+    line-height: 20px;
     margin-top: 10px;
 }
 
 #massage-therapy-img {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border: 2px solid #B8B8B8;
     width: 382px;
     height: 115px;
 }
+
+#massage-award h2 {
+    color: #9a2018;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#quality-assurance {
+    display: flex;
+    align-items: center;
+}
+
+#quality-assurance img {
+    width: 176px;
+    margin-right: 20px;
+}
+
+.quality-assurance-con {
+    margin-bottom: 20px;
+}
+
+#quality-assurance p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.quality-assurance-con a {
+    color:#9a2018;
+}
+
+/*treatments*/
+#treatments {
+    background-color: #f4f4f4;
+}
+
+#treatments-heading-box {
+   align-self: end;
+}
+
+#treatments-h2 {
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#treatments-menu details {
+    padding: 10px;
+    margin: 5px;
+    background-color: #E8E7E7;
+    width: 375px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px;
+}
+
+#treatments-menu summary {
+    font-size: 14px;
+}
+
+#treatments-menu p {
+    padding: 15px;
+}
+
+#treatments-menu ul {
+    padding-left: 0;
+}
+#treatments-menu ul li {
+    list-style: none;
+    color: #333;
+    border-bottom: 1.5px solid #9a2018;
+    padding: 10px;
+}
+
+
+#nail-polish {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#nail-polish p {
+    font-size: 14px;
+}
+
 /*Rooms Content*/
 
 #rooms-list ul li {
     display: block;
-    padding: 10px ;
+    padding: 10px;
     text-align: left;
     color: #626262;
 }
@@ -217,36 +301,6 @@ input, textarea {
 #rooms-list ul li {
     border-bottom: 1.5px solid #9a2018;
 }
-
-
-/*Treatments Navigation*/
-
-#treatments-offered-nav {
-    padding-top: 20px;
-}
-
-#treatments-offered-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-#teatments-offered-nav ul li {
-    margin-bottom: 15px;
-}
-
-#treatments-offered-nav ul li a {
-    color:#333;
-    padding: 5px;
-}
-
-#treatments-offered-nav ul li a.selected {
-    border-left:#9a2018 solid 5px;
-}
-
-
-
-
 
 
 
@@ -280,6 +334,6 @@ input, textarea {
  
  #footer-contact-info p {
     margin-bottom: 20px;
-    line-height: 18px;
+    line-height: 20px;
     font-size: 10px;
  }
