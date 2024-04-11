@@ -462,6 +462,10 @@ input, textarea {
 
 /*Rooms Content*/
 
+#rooms-list ul {
+    padding-left: 0;
+}
+
 #rooms-list ul li {
     display: block;
     padding: 10px;
