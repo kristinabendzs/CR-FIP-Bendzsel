@@ -176,15 +176,12 @@ input, textarea {
     font: 12px;
 }
 
-#hero-summary p {
+#hero-summary p, #hero-summary-ap {
     font-size: 14px;
     line-height: 20px;
     margin-top: 10px
 }
 
-#hero-summary-ap {
-    margin-bottom: 15px;
-}
 /*Spa Navigation*/
 
 #spa-information {
@@ -292,7 +289,7 @@ input, textarea {
 }
 
 #treatments-menu p {
-    padding: 5x;
+    padding: 5px;
 }
 
 #treatments-menu p:first-of-type {
@@ -421,6 +418,8 @@ input, textarea {
     flex-direction: column;
  }
  
+ /*Button Animation*/
+
  #contact-hero-form input, textarea {
     padding: 18px;
     border: 2px solid #d6d6d6;
@@ -440,33 +439,56 @@ input, textarea {
     background: #9a2018;
     color: #fff;
     border: none;
-    transition: all 200ms ease-in;
+    transition: all 0.5s ease-in;
     width: 150px;
     align-self: flex-end;
+    cursor: pointer;
  }
  
  #contact-hero-form input[type="submit"]:hover {
-    background-color: #626262;
-    border-radius: 0;
+    background-color: rgb(196,28,28);
+    border-radius: 3px;
+    animation-name: send-button;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    width: 250px;
+    cursor: pointer;
  }
 
- #contact-hero-form input[type="submit"]:active {
-    animation-name: sendbutton;
- }
-
- /*Send Button Animation*/
-
-@keyframes sendbutton {
-    0% {transform: translateX(0)}
-    50% {transform: translateX(-50px)}
-    100% {transform: translateX(-100px);}
+@keyframes send-button {
+    0% {transform: scale(1)}
+    25% {transform: scale(1.1);}
+    50% {transform: scale(1.15)}
+    75% {transform: scale(1.2)}
+    100% {transform: scale(1)}
 }
 
+#email-promo input[type=checkbox] {
+    margin-right: 5px;
+    display: inline;
+    width: 25px;
+}
+
+#email-promo span {
+    color: #9a2018;
+    font-size: 16px;
+}
+
+#email-promo {
+    padding-bottom: 5px;
+}
+
+input[type="checkbox"]:checked + span::after {
+    content: "💌";
+    font-size: 20px;
+}
 
 /*Rooms Content*/
 
 #rooms-list ul {
     padding-left: 0;
+    margin-top: 0;
 }
 
 #rooms-list ul li {
@@ -521,42 +543,7 @@ input, textarea {
     align-items: center;
 }
 
-#chateaus img {
-    width: 200px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    border: 2px solid #B8B8B8;
-}
-
-#villas img {
-    width: 200px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    border: 2px solid #B8B8B8;
-}
-
-#masters img {
-    width: 200px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    border: 2px solid #B8B8B8;
-}
-
-#exotics img {
-    width: 200px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    border: 2px solid #B8B8B8;
-}
-
-#chalets img {
-    width: 200px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    border: 2px solid #B8B8B8;
-}
-
-#junior-suites img {
+#chateaus img, #villas img, #masters img, #exotics img, #chalets img, #junior-suites img {
     width: 200px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -581,10 +568,11 @@ input, textarea {
     color:#f4f4f4;
     background-color: #9a2018;
     border: 1px solid #B8B8B8;
+    transition: all 0.3s ease; 
 }
 
 .more-details-button a:hover {
-    background-color: #626262;
+    background-color: rgb(196,28,28);
 }
 
 /*Algonquin Park Content*/
