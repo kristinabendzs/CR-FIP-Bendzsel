@@ -31,6 +31,11 @@ a {
     font-size: 14px;
 }
 
+.red-text-rooms {
+    color: #9a2018;
+    font-size: 20px;
+}
+
 input, textarea {
     display: block;
     margin: 0;
@@ -116,7 +121,7 @@ input, textarea {
 }
 
 #hero-rooms {
-    background: url(../images/hero-img-mobile-rooms.jpg);
+    background: url(../images/hero-rooms-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -180,7 +185,7 @@ input, textarea {
 #hero-summary-ap {
     margin-bottom: 15px;
 }
-/*Spa Content*/
+/*Spa Navigation*/
 
 #spa-information {
     padding-top: 20px;
@@ -236,8 +241,6 @@ input, textarea {
     text-align: center;
     margin-bottom: 20px;
 }
-
-
 
 #quality-assurance {
     display: flex;
@@ -470,13 +473,119 @@ input, textarea {
     display: block;
     padding: 10px;
     text-align: left;
-    color: #626262;
+    color: #333;
 }
 
 #rooms-list ul li {
     border-bottom: 1px solid #9a2018;
 }
 
+/*Rooms Navigation*/
+#rooms-information {
+    padding-top: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #626262;
+}
+
+#rooms-information-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    line-height: 20px;
+}
+
+#rooms-information-nav ul li {
+    margin-bottom: 15px;
+}
+
+#rooms-information-nav ul li a {
+    color: inherit;
+    padding: 5px;
+}
+
+#rooms-information-nav ul li a.selected {
+    border-left:#9a2018 solid 5px;
+}
+
+/*Room Styles Information*/
+#room-styles-con {
+    background: url(../images/rooms-image1-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 206px;
+    margin-top: 25px;
+}
+
+#chateaus, #villas, #masters, #exotics, #chalets, #junior-suites {
+    display: flex;
+    align-items: center;
+}
+
+#chateaus img {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 2px solid #B8B8B8;
+}
+
+#villas img {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 2px solid #B8B8B8;
+}
+
+#masters img {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 2px solid #B8B8B8;
+}
+
+#exotics img {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 2px solid #B8B8B8;
+}
+
+#chalets img {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 2px solid #B8B8B8;
+}
+
+#junior-suites img {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 2px solid #B8B8B8;
+}
+
+.rooms-content {
+    margin-bottom: 30px;
+}
+
+.more-details-button {
+    text-align: center;
+    border-radius: 2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.more-details-button a {
+    padding: 20px;
+    color:#f4f4f4;
+    background-color: #9a2018;
+    border: 1px solid #B8B8B8;
+}
+
+.more-details-button a:hover {
+    background-color: #626262;
+}
 
 /*Algonquin Park Content*/
 
